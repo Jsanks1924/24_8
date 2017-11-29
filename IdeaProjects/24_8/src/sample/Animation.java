@@ -33,7 +33,7 @@ public class Animation extends Application {
                 indexTxt, searchbtn,inserthbtn,deletebtn,trimbtn);
         box.setAlignment(Pos.CENTER);
         BorderPane borderPane = new BorderPane();
-        borderPane.setCenterShape(view);
+        borderPane.setCenterShape(view); 
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("Hello World");
         primaryStage.setScene(new Scene(root, 300, 275));
